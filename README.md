@@ -1,7 +1,14 @@
 # CSS_Smasher
 
 ## Layout
+
 ## Position
+
+### Relative
+### Absolute
+### Fixed
+### Sticky
+
 ## Flexbox
 
 ### Container
