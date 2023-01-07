@@ -2,6 +2,14 @@
 
 ## Layout
 
+### Display
+```
+block
+inline-block
+inline
+flex
+```
+
 ## Position
 
 #### Relative
