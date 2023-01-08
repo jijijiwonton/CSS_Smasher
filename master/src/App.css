@@ -21,6 +21,46 @@
 
 .container4 {
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; by default */
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container6 {
+  display: flex;
+  justify-content: center;
+}
+
+.container7 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container8 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container9 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container10 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container11 {
+  border: 0.5rem dashed #e1bee7;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.display1,
@@ -109,8 +149,10 @@ div.position4 {
 .item {
   width: 40px;
   height: 40px;
-  margin: 1.5rem;
+  margin: 1rem;
+  border: 0.5rem dashed #e1bee7;
 }
+
 .item1 {
   background-color: #f4ff81;
 }
